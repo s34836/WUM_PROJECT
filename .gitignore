@@ -1,0 +1,7 @@
+.venv/*
+.env
+.vscode/*
+*.pkl
+*.txt
+*.csv
+*.parquet
