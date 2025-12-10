@@ -1,4 +1,4 @@
-# Chapter 2	Data Collection and Description
+# Data Collection and Description
 2-1.py - Web scraping script for collecting car listing URLs from Otomoto.pl. Uses BeautifulSoup to extract car listing URLs from search result pages with progress tracking and error handling.
 2-2.py - URL deduplication utility that removes duplicate car listing URLs from the scraped data. Reads from otomoto_car_urls.txt and outputs unique URLs to otomoto_car_urls_unique.txt.
 2-3.py - Car details scraper that extracts detailed information from individual car listing pages. Processes URLs from the unique list and extracts JSON data containing car specifications, prices, and features with progress tracking.
@@ -8,7 +8,7 @@
 2-7.ipynb - Data preparation and cross-validation setup notebook. Creates train/test splits and prepares datasets for LinearRegression, DecisionTree, and BART models.
 2-8.ipynb - Advanced feature engineering and dataset creation notebook. Generates final modeling datasets with proper cross-validation folds and feature transformations.
 
-# Chapter 3	Machine Learning Models Training and Evaluation
+# Machine Learning Models Training and Evaluation
 3-1.ipynb - Linear regression modeling notebook. Implements LinearRegression, Ridge, and Lasso models with cross-validation and hyperparameter tuning for car price prediction.
 3-2.ipynb - Decision tree and ensemble modeling notebook. Implements DecisionTree, RandomForest, and GradientBoosting models with cross-validation and feature importance analysis.
 3-3.ipynb - Neural network modeling notebook. Implements MLP (Multi-Layer Perceptron) models with PyTorch, including cross-validation, early stopping, and performance evaluation.
