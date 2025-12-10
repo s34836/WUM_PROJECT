@@ -1,0 +1,17 @@
+requests==2.31.0
+beautifulsoup4==4.12.2
+pandas==2.2.0
+requests-html==0.10.0
+Pyarrow
+matplotlib
+contextily
+numpy
+seaborn
+scipy
+statsmodels
+plotly
+scikit-learn
+streamlit
+torch
+tabulate
+pytorch_tabnet
